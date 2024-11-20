@@ -13,7 +13,7 @@ SCRAPERAPI_ENDPOINT = "https://api.scraperapi.com/?api_key=" + SCRAPERAPI_KEY  #
 
 class SolarScraper:
     def __init__(self):
-        self.browser = None
+        self.browser = None 
         self.context = None
         self.page = None
 
